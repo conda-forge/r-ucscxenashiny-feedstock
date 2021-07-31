@@ -1,4 +1,4 @@
-{% set version = '1.1.0' %}
+{% set version = "1.1.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -11,13 +11,13 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/UCSCXenaShiny_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/UCSCXenaShiny/UCSCXenaShiny_{{ version }}.tar.gz
-  sha256: 0669d9a0a1ecf117a668818c501addada6750df7db3619c9c9caa2c3d28f7648
+  sha256: 7cc8366edcfecbdabb2d4819e34854ad38fa5d133e352ea8254986d44cdb5142
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   # If this is a new build for the same version, increment the build number.
   number: 0
-  
+
   rpaths:
     - lib/R/lib/
     - lib/
@@ -75,13 +75,11 @@ about:
   home: https://github.com/openbiox/UCSCXenaShiny
 
   license: GPL-2.0-or-later
-  summary: Provides functions and a Shiny application for downloading, analyzing and visualizing
-    datasets from UCSC Xena (<http://xena.ucsc.edu/>), which is a collection of UCSC-hosted
-    public databases such as TCGA, ICGC, TARGET, GTEx, CCLE, and others.
+  summary: Provides functions and a Shiny application for downloading, analyzing and visualizing datasets from UCSC Xena (<http://xena.ucsc.edu/>), which is a collection of UCSC-hosted public databases such as TCGA, ICGC, TARGET, GTEx, CCLE, and others.
 
   license_family: GPL3
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
