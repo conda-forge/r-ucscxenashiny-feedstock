@@ -16,7 +16,7 @@ source:
 build:
   merge_build_host: true  # [win]
   # If this is a new build for the same version, increment the build number.
-  number: 0
+  number: 1
 
   rpaths:
     - lib/R/lib/
