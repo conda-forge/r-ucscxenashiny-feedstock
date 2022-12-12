@@ -1,4 +1,4 @@
-{% set version = "1.1.8" %}
+{% set version = "1.1.9" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/UCSCXenaShiny_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/UCSCXenaShiny/UCSCXenaShiny_{{ version }}.tar.gz
-  sha256: a197cf05944e303323125b1cac1b80a8d966fd335de87aff0dc764563b44a12a
+  sha256: 34f4acad497d3b74bbdcb9f309da0bff69c711751e1b44047e5c5809d736122f
 
 build:
   merge_build_host: true  # [win]
   # If this is a new build for the same version, increment the build number.
-  number: 1
+  number: 0
 
   rpaths:
     - lib/R/lib/
