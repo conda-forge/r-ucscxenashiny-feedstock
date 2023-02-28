@@ -1,11 +1,22 @@
+About r-ucscxenashiny-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ucscxenashiny-feedstock/blob/main/LICENSE.txt)
+
 About r-ucscxenashiny
-=====================
+---------------------
 
 Home: https://github.com/openbiox/UCSCXenaShiny
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ucscxenashiny-feedstock/blob/main/LICENSE.txt)
+Summary: Provides functions and a Shiny application for downloading, analyzing and visualizing datasets from UCSC Xena (<http://xena.ucsc.edu/>), which is a collection of UCSC-hosted public databases such as TCGA, ICGC, TARGET, GTEx, CCLE, and others.
+About r-ucscxenashiny
+---------------------
+
+Home: https://github.com/openbiox/UCSCXenaShiny
+
+Package license: GPL-2.0-or-later
 
 Summary: Provides functions and a Shiny application for downloading, analyzing and visualizing datasets from UCSC Xena (<http://xena.ucsc.edu/>), which is a collection of UCSC-hosted public databases such as TCGA, ICGC, TARGET, GTEx, CCLE, and others.
 
