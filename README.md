@@ -3,6 +3,7 @@ About r-ucscxenashiny-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ucscxenashiny-feedstock/blob/main/LICENSE.txt)
 
+
 About r-ucscxenashiny
 ---------------------
 
@@ -11,6 +12,7 @@ Home: https://github.com/openbiox/UCSCXenaShiny
 Package license: GPL-2.0-or-later
 
 Summary: Provides functions and a Shiny application for downloading, analyzing and visualizing datasets from UCSC Xena (<http://xena.ucsc.edu/>), which is a collection of UCSC-hosted public databases such as TCGA, ICGC, TARGET, GTEx, CCLE, and others.
+
 About r-ucscxenashiny
 ---------------------
 
@@ -153,7 +155,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
