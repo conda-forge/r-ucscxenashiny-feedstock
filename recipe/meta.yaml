@@ -32,6 +32,8 @@ requirements:
     - mpfr  # [linux]
     - r-base
     - r-ucscxenatools
+    - r-digest
+    - r-httr
     - r-dplyr >=0.8.3
     - r-ezcox
     - r-forcats
@@ -51,6 +53,8 @@ requirements:
     - mpfr  # [linux]
     - r-base
     - r-ucscxenatools
+    - r-digest
+    - r-httr
     - r-dplyr >=0.8.3
     - r-ezcox
     - r-forcats
@@ -85,6 +89,7 @@ extra:
   recipe-maintainers:
     - conda-forge/r
     - ShixiangWang
+    - lishensuo
     - Byronxy
     - longfei8533
     - kaigu1990
