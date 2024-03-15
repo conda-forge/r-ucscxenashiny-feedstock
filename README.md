@@ -7,20 +7,24 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ucscxenashiny
 About r-ucscxenashiny
 ---------------------
 
-Home: https://github.com/openbiox/UCSCXenaShiny
+Home: https://openbiox.github.io/UCSCXenaShiny/
 
-Package license: GPL-2.0-or-later
+Package license: GPL-3.0-or-later
 
 Summary: Provides functions and a Shiny application for downloading, analyzing and visualizing datasets from UCSC Xena (<http://xena.ucsc.edu/>), which is a collection of UCSC-hosted public databases such as TCGA, ICGC, TARGET, GTEx, CCLE, and others.
+
+Development: https://github.com/openbiox/UCSCXenaShiny
 
 About r-ucscxenashiny
 ---------------------
 
-Home: https://github.com/openbiox/UCSCXenaShiny
+Home: https://openbiox.github.io/UCSCXenaShiny/
 
-Package license: GPL-2.0-or-later
+Package license: GPL-3.0-or-later
 
 Summary: Provides functions and a Shiny application for downloading, analyzing and visualizing datasets from UCSC Xena (<http://xena.ucsc.edu/>), which is a collection of UCSC-hosted public databases such as TCGA, ICGC, TARGET, GTEx, CCLE, and others.
+
+Development: https://github.com/openbiox/UCSCXenaShiny
 
 Current build status
 ====================
@@ -65,13 +69,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13545&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ucscxenashiny-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13545&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ucscxenashiny-feedstock?branchName=main&jobName=win&configuration=win%20win_64_" alt="variant">
                 </a>
               </td>
             </tr>
@@ -205,8 +202,8 @@ Feedstock Maintainers
 
 * [@Byronxy](https://github.com/Byronxy/)
 * [@ShixiangWang](https://github.com/ShixiangWang/)
-* [@lishensuo](https://github.com/lishensuo/)
 * [@conda-forge/r](https://github.com/conda-forge/r/)
 * [@kaigu1990](https://github.com/kaigu1990/)
+* [@lishensuo](https://github.com/lishensuo/)
 * [@longfei8533](https://github.com/longfei8533/)
 
