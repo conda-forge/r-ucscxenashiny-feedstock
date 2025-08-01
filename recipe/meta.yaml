@@ -1,4 +1,4 @@
-{% set version = "2.1.0" %}
+{% set version = "2.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/UCSCXenaShiny_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/UCSCXenaShiny/UCSCXenaShiny_{{ version }}.tar.gz
-  sha256: b52c78b94ee607d2293fb49b35aca36c04b842204c1c77b48528a0c5c61d0a20
+  sha256: 2f6e2ee744f2bb331849cee7fa1ad5088f1bbe124818ae046266424ca9e6fd79
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
